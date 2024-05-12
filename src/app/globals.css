@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  .selectBtnNotActive {
+    @apply text-blueColor font-bold duration-500 w-52 border-b-4 text-xl border-[#091d3c] p-2 pb-5 opacity-70;
+  }
+  .selectBtnActive {
+    @apply text-white font-bold duration-500 w-52 border-b-4 text-xl border-blueColor p-2 pb-5;
+  }
+}
+
+@layer components {
+  .mainP {
+    @apply px-8;
+  }
+}
